@@ -1,0 +1,32 @@
+npm install -D @types/react-router-dom
+# for TypeScript
+
+
+-----------------------------------------------------------------
+🔹 1. npm install
+This is the standard command to install a package into your project.
+
+
+-----------------------------------------------------------------
+🔹 2. -D
+This flag means install as a dev dependency (short for --save-dev).
+
+Normal dependencies (dependencies) are needed at runtime (when your app runs in the browser).
+Dev dependencies (devDependencies) are only needed during development (compilers, linters, type definitions, testing tools, etc.).
+
+So -D tells npm:
+👉 “I only need this for development, not for running the app in production.”
+
+
+-----------------------------------------------------------------
+🔹 3. @types/react-router-dom
+This is a TypeScript type definition package. "react-router-dom" itself is written in JavaScript.
+
+TypeScript doesn’t know about its types (like props, hooks, and components).
+
+@types/react-router-dom gives TypeScript all the type information it needs for:
+--Components (<Route>, <Link>, <BrowserRouter>, etc.)
+--Hooks (useNavigate, useParams, etc.)
+--Function signatures
+
+So with this package installed, you get type checking + IntelliSense/autocomplete in your editor.
