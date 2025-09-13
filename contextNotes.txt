@@ -1,0 +1,19 @@
+1. What is Context API?
+Normally in React, data is passed top-down (parent → child) using props.
+But when many nested components need the same data, prop drilling becomes painful.
+
+Context API solves this by creating a global state container where:
+    --You create a Context (like a store).
+    --Wrap your app in a Provider that shares data.
+    --Any component inside can consume the data using useContext.
+
+2. Key Parts
+    --Create Context → React.createContext()
+    --Provider → Supplies values (state + functions).
+    --Consumer → Components access values with useContext.
+
+3. TypeScript in Context API
+With TS, you must define types for:
+    --State
+    --Actions (functions that modify state)
+    --Context value

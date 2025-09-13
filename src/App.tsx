@@ -9,23 +9,26 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import BoxSwitch from "./pages/BoxSwitch";
 import IconSwitch from "./pages/IconSwitch";
+import Footer from "./components/Footer";
 
 
 function App() {
 
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       {/* Navbar */}
       <Navbar />
 
       {/* Routes */}
-      <main>
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/boxswitch" element={<BoxSwitch />} />
           <Route path="/iconswitch" element={<IconSwitch />} />
         </Routes>
       </main>
+
+      <Footer />
     </div>
   )
 }
