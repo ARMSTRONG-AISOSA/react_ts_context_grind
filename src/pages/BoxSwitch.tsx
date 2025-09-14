@@ -6,7 +6,7 @@ const BoxSwitch: React.FC = () => {
   const { isBlue } = useToggleBox();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center flex-grow bg-gray-100">
       {/* Box */}
       <div
         className={`w-40 h-40 rounded-lg border-2 transition-colors duration-300 ${isBlue ? "bg-blue-500 border-blue-700" : "bg-white border-gray-400"

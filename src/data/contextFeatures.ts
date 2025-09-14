@@ -21,6 +21,12 @@ export const contextFeatures: ContextFeature[] = [
     },
     {
         id: 3,
+        title: "Counter",
+        path: "/counterpage",
+        description: "Add, subtrsct or reset counter globally with Context API."
+    },
+    {
+        id: 4,
         title: "User Management",
         path: "/boxswitch",
         description: "Add, update, and delete users globally with Context API."
