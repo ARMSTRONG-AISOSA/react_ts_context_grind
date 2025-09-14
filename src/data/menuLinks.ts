@@ -8,6 +8,6 @@ export interface MenuLink {
 export const menuLinks: MenuLink[] = [
     { id: 1, path: "/", label: "Home" },
     { id: 2, path: "/boxswitch", label: "Box" },
-    { id: 3, path: "/counterpage", label: "Counter" },
-    { id: 4, path: "/iconswitch", label: "Icon" },
+    { id: 3, path: "/profilepage", label: "Profile" },
+    { id: 4, path: "/counterpage", label: "Counter" },
 ];

@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import BoxSwitch from "./pages/BoxSwitch";
 import CounterPage from "./pages/CounterPage";
-import IconSwitch from "./pages/IconSwitch";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/boxswitch" element={<BoxSwitch />} />
           <Route path="/counterpage" element={<CounterPage />} />
-          <Route path="/iconswitch" element={<IconSwitch />} />
+          <Route path="/profilepage" element={<Profile />} />
         </Routes>
       </main>
 

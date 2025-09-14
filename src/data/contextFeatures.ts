@@ -15,9 +15,9 @@ export const contextFeatures: ContextFeature[] = [
     },
     {
         id: 2,
-        title: "Icon Toggle",
-        path: "/iconswitch",
-        description: "Switching between different icon using Context"
+        title: "Profile",
+        path: "/profilepage",
+        description: "Add, update, and delete users globally with Context API."
     },
     {
         id: 3,
